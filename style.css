@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f8fbff, #ffeaf6);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #99c5ff, #85ffb0);
+    padding: 30px 20px;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* MAIN */
+main {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+/* BOTÕES GERAIS */
+button {
+    border: none;
+    border-radius: 15px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ===== CORES PERSONALIZADAS ===== */
+
+/* Beatriz - rosa + roxo */
+button:nth-child(1) {
+    background: linear-gradient(45deg, #ff7ac6, #a855f7);
+    color: white;
+}
+
+button:nth-child(1):hover {
+    transform: scale(1.08);
+}
+
+/* Diego - azul + branco */
+button:nth-child(2) {
+    background: linear-gradient(45deg, #3b82f6, #ffffff);
+    color: #1e3a8a;
+}
+
+button:nth-child(2):hover {
+    transform: scale(1.08);
+}
+
+/* Lucas Candido - vermelho + amarelo */
+button:nth-child(3) {
+    background: linear-gradient(45deg, #ff0000, #ffd000);
+    color: black;
+}
+
+button:nth-child(3):hover {
+    transform: scale(1.08);
+}
+
+/* Lucas Guerriero - vermelho + branco */
+button:nth-child(4) {
+    background: linear-gradient(45deg, #ff0000, #ffffff);
+    color: #8b0000;
+}
+
+button:nth-child(4):hover {
+    transform: scale(1.08);
+}
+
+/* Luigi - azul + vermelho */
+button:nth-child(5) {
+    background: linear-gradient(45deg, #2563eb, #dc2626);
+    color: white;
+}
+
+button:nth-child(5):hover {
+    transform: scale(1.08);
+}
+
+/* FOOTER */
+footer {
+    background-color: #f1f5f9;
+    padding: 15px;
+    font-size: 14px;
+    color: #555;
+}
