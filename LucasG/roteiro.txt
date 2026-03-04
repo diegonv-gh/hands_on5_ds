@@ -1,0 +1,14 @@
+1. Apresentação (Quem sou eu e o projeto)
+"Olá a todos! Meu nome é Lucas Guerriero e hoje eu vou apresentar o meu 'Projeto Canadá'. Criei esta página usando HTML e CSS para colocar em prática meus estudos de programação e, ao mesmo tempo, compartilhar o meu maior objetivo de carreira."
+
+2. O Visual (Como a página foi feita)
+"Visualmente, eu quis algo moderno e direto. Escolhi uma paleta focada no vermelho para remeter à bandeira do Canadá. O fundo tem uma animação suave e os cartões flutuantes usam um efeito chamado Glassmorphism, que dá essa aparência de vidro fosco. E para manter o visual limpo e profissional, optei por um design minimalista, sem emojis."
+
+3. O Conteúdo (O que tem na página)
+"No conteúdo, eu estruturei a página em blocos lógicos. Primeiro, falo sobre minha motivação: o Canadá é referência em qualidade de vida e tem um mercado de tecnologia gigante. Depois, destaco meu destino dos sonhos, que é a região das montanhas de Banff, e listo meus objetivos, como a fluência no inglês."
+
+4. A Técnica (O diferencial do código)
+"Para deixar o projeto super completo tecnicamente, usei tags semânticas do HTML5, criei um passo a passo do meu planejamento e adicionei um formulário de contato no final. A página também é totalmente responsiva, ou seja, se adapta perfeitamente à tela do celular."
+
+5. Encerramento (Agradecimento)
+"Foi um projeto simples, mas feito com muita dedicação aos detalhes e focado nas melhores práticas. Muito obrigado pela atenção!"
