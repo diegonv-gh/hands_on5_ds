@@ -1,0 +1,87 @@
+/* Fonte fofinha do Google (opcional) */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(135deg, #ffe6f2, #e6f0ff);
+    color: #444;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ffb6d9;
+    padding: 25px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* Linhas */
+hr {
+    border: none;
+    height: 3px;
+    background: linear-gradient(to right, #ffb6d9, #a6c8ff);
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Parte da apresentação */
+#div1 {
+    background-color: #ffffffcc;
+    margin: 30px auto;
+    padding: 25px;
+    width: 70%;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(166, 200, 255, 0.3);
+    font-size: 18px;
+}
+
+/* Caixa das listas */
+#caixas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.listas {
+    background-color: #ffffffcc;
+    padding: 25px;
+    width: 75%;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(255, 182, 217, 0.3);
+}
+
+h3 {
+    color: #ff69b4;
+    margin-bottom: 15px;
+}
+
+/* Lista */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e6f0ff;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 15px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+li:hover {
+    background-color: #ffdaf0;
+    transform: scale(1.05);
+    cursor: pointer;
+}
