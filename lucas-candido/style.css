@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #FECE00;
+    --secondary-color: #DF0000;
+    --terciary-color: #000;
+    --dark-text-color: #333;
+    --light-text-color: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('assets/imgs/alemanha_catel2.jpg') no-repeat -400px -300px fixed;
+}
+
+header {
+    /* background-color: var(--terciary-color); */
+    color: var(--dark-text-color);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#voltar {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: var(--light-text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; max-width: 800px;
+
+    background: rgba(255, 255, 255, 0.15); /* Fundo semi-transparente */
+    backdrop-filter: blur(10px);
+    border: var(--dark-text-color) 1px solid; /* Borda para destacar o conteúdo */
+}
+
+#aluno {
+    background-color: var(--terciary-color);
+    color: var(--light-text-color);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#lugar {
+    background-color: var(--secondary-color);
+    color: var(--light-text-color);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#curiosidades {
+    background-color: var(--primary-color);
+    color: var(--dark-text-color);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+footer {
+    color: var(--light-text-color);
+}
