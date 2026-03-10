@@ -14,11 +14,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url('assets/imgs/alemanha_catel2.jpg') no-repeat center center fixed;
+    background-image: linear-gradient(#000000e4, #0e111526), url('assets/imgs/alemanha_catel2.jpg');
 }
- 
+
 header {
-    color: var(--dark-text-color);
+    color: var(--light-text-color);
     padding: 20px;
     text-align: center;
     width: 100%;
