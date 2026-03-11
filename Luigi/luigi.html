@@ -3,63 +3,145 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Lugar que quero conhecer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugar que quero conhecer - Luigi Azevedo</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 
 <body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Ici c'est Paris</div>
+            <ul class="nav-links">
+                <li><a href="#aluno" class="nav-link">Sobre</a></li>
+                <li><a href="#lugar" class="nav-link">Destino</a></li>
+                <li><a href="#curiosidades" class="nav-link">Curiosidades</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <header>
-        <h1>Lugar que tenho vontade de conhecer</h1>
-        <p>Preencha as informações sobre um lugar do mundo que você gostaria de visitar.</p>
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Lugar que Quero Conhecer</h1>
+            <p class="hero-subtitle">Uma jornada pelo romance e pela magia parisiense</p>
+        </div>
+        <div class="hero-bg-animation"></div>
     </header>
 
     <main>
-        <section id="aluno">
-            <div>
-                <h2>Sobre o aluno</h2>
-                <p>Nome: <strong>Luigi Azevedo Biondo</strong></p>
-                <p>Turma: 2ºH</p>
-            </div>
-            <div>
-                <img src="assets/yamal.png" alt="Foto do aluno">
+        <section id="aluno" class="section-card fade-in">
+            <div class="aluno-container">
+                <div class="aluno-info">
+                    <h2 class="section-title">Sobre Mim</h2>
+                    <div class="info-box">
+                        <div class="info-item">
+                            <span class="info-label">Nome:</span>
+                            <span class="info-value">Luigi Azevedo Biondo</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Turma:</span>
+                            <span class="info-value">2ºH</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="aluno-image">
+                    <img src="assets/neymar.jpg" alt="Foto do aluno" class="profile-img">
+                </div>
             </div>
         </section>
 
-        <section id="lugar">
-            <h2>O lugar dos meus sonhos</h2>
-            <p><strong>Nome do lugar: </strong>Barcelona</p>
-            <p><strong>Por que quero conhecer esse lugar?</strong></p>
-            <p>
-                Barcelona é uma cidade vibrante e cheia de cultura, conhecida por sua arquitetura única, praias
-                deslumbrantes e uma cena artística rica. Quero conhecer Barcelona para explorar suas obras-primas
-                arquitetônicas, como a Sagrada Família e o Parque Güell, além de desfrutar da culinária local e do maior
-                esporte do mundo, o futebol, assistindo a um jogo do FC Barcelona no Camp Nou. A cidade também é famosa
-                por sua vida noturna animada e eventos culturais, o que torna Barcelona um destino perfeito para uma
-                experiência inesquecível.
-            </p>
+        <section id="lugar" class="section-card fade-in">
+            <h2 class="section-title">O Lugar dos Meus Sonhos</h2>
+
+            <div class="lugar-content">
+                <div class="lugar-info">
+                    <div class="destination-header">
+                        <h3 class="destination-name">Paris, França</h3>
+                        <span class="destination-badge">Europa</span>
+                    </div>
+
+                    <div class="info-section">
+                        <h4 class="subsection-title">Por que quero conhecer esse lugar?</h4>
+                        <p class="description-text">
+                            Paris é a capital do romance e da arte, conhecida mundialmente por sua beleza arquitetônica
+                            incomparável,
+                            museus de classe mundial e uma atmosfera mágica. Quero conhecer Paris para vivenciar a
+                            majestade da Torre Eiffel,
+                            explorar o acervo infinito do Museu do Louvre, passear pelo encanto de Montmartre e saborear
+                            a excelente
+                            culinária francesa em bistrôs tradicionais. A cidade também é famosa por seus becos
+                            históricos, as margens do Rio Sena
+                            românticas e o estilo de vida sofisticado parisiense, o que torna Paris um destino
+                            imprescindível para uma
+                            experiência inesquecível e transformadora.
+                        </p>
+                    </div>
+
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            <div class="carousel-track">
+                                <div class="carousel-slide active" data-index="0">
+                                    <img src="assets/torre-eiffel.jpg" alt="Paris - Torre Eiffel">
+                                    <p class="slide-caption">Torre Eiffel - O símbolo icônico de Paris</p>
+                                </div>
+                                <div class="carousel-slide" data-index="1">
+                                    <img src="assets/louvre-museum.jpg" alt="Museu do Louvre">
+                                    <p class="slide-caption">Museu do Louvre - Tesouro artístico mundial</p>
+                                </div>
+                                <div class="carousel-slide" data-index="2">
+                                    <img src="assets/seine-river.jpg" alt="Rio Sena">
+                                    <p class="slide-caption">Rio Sena - Romance e história</p>
+                                </div>
+                            </div>
+
+                            <button class="carousel-btn prev" aria-label="Imagem anterior">❮</button>
+                            <button class="carousel-btn next" aria-label="Próxima imagem">❯</button>
+
+                            <div class="carousel-indicators">
+                                <button class="indicator active" data-index="0" aria-label="Ir para slide 1"></button>
+                                <button class="indicator" data-index="1" aria-label="Ir para slide 2"></button>
+                                <button class="indicator" data-index="2" aria-label="Ir para slide 3"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="curiosidades">
-            <h2>Curiosidades sobre esse lugar</h2>
-            <ul>
-                <li>
-                    A Sagrada Família, uma das obras mais famosas de Antoni Gaudí, está em construção desde 1882 e
-                    ainda não foi concluída.
-                </li>
-                <li>
-                    Barcelona é a segunda cidade mais visitada da Espanha, depois de Madrid, e recebe milhões de
-                    turistas todos os anos.
-                </li>
-                <li>
-                    O Parque Güell, projetado por Gaudí, é um dos parques mais coloridos e criativos do mundo, com
-                    mosaicos vibrantes e formas arquitetônicas únicas.
-            </ul>
+        <section id="curiosidades" class="section-card fade-in">
+            <h2 class="section-title">Curiosidades sobre Paris</h2>
+            <div class="curiosidades-container">
+                <div class="curiosity-card">
+                    <span class="curiosity-icon">🗼</span>
+                    <h3>Torre Eiffel</h3>
+                    <p>Construída para a Exposição Universal de 1889, a Torre Eiffel se tornou o símbolo mais icônico de
+                        Paris
+                        e é a estrutura de ferro mais visitada do mundo.</p>
+                </div>
+                <div class="curiosity-card">
+                    <span class="curiosity-icon">🎨</span>
+                    <h3>Museu do Louvre</h3>
+                    <p>O museu mais visitado do mundo, abriga obras-primas como a Mona Lisa de Da Vinci e a Vitória de
+                        Samotrácia,
+                        atraindo milhões de visitantes anualmente.</p>
+                </div>
+                <div class="curiosity-card">
+                    <span class="curiosity-icon">❤️</span>
+                    <h3>Cidade do Amor</h3>
+                    <p>Paris é conhecida como a Cidade do Amor, com suas ruas românticas, cafés aconchegantes e
+                        paisagens que
+                        inspiram poetas e artistas há séculos.</p>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>Trabalho de HTML/CSS - Lugares que queremos conhecer</p>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Luigi Azevedo Biondo - Paris, a Cidade Luz</p>
+            <p class="footer-subtitle">Lugares que Queremos Conhecer</p>
+        </div>
     </footer>
 
 </body>
