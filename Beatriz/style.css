@@ -1,87 +1,134 @@
-/* Fonte fofinha do Google (opcional) */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-body {
-    margin: 0;
-    font-family: 'Quicksand', sans-serif;
-    background: linear-gradient(135deg, #ffe6f2, #e6f0ff);
-    color: #444;
-    text-align: center;
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-/* Cabeçalho */
-header {
-    background-color: #ffb6d9;
-    padding: 25px;
-    color: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+/* BODY */
+
+body{
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg,#ffe6f2,#e6f0ff);
+    color:#444;
+    text-align:center;
 }
 
-h1 {
-    margin: 0;
-    font-size: 32px;
+/* HERO FOTO */
+
+.hero{
+    position:relative;
+    height:55vh;
+    overflow:hidden;
 }
 
-/* Linhas */
-hr {
-    border: none;
-    height: 3px;
-    background: linear-gradient(to right, #ffb6d9, #a6c8ff);
-    width: 60%;
-    margin: 20px auto;
-    border-radius: 10px;
+.hero img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    filter:brightness(75%);
 }
 
-/* Parte da apresentação */
-#div1 {
-    background-color: #ffffffcc;
-    margin: 30px auto;
-    padding: 25px;
-    width: 70%;
-    max-width: 500px;
-    border-radius: 20px;
-    box-shadow: 0 6px 15px rgba(166, 200, 255, 0.3);
-    font-size: 18px;
+.hero-text{
+    position:absolute;
+    bottom:40px;
+    left:80px;
+    text-align:left;
+    color:white;
 }
 
-/* Caixa das listas */
-#caixas {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
+.hero-text h1{
+    font-size:3rem;
 }
 
-.listas {
-    background-color: #ffffffcc;
-    padding: 25px;
-    width: 75%;
-    max-width: 500px;
-    border-radius: 20px;
-    box-shadow: 0 6px 15px rgba(255, 182, 217, 0.3);
+.hero-text p{
+    font-size:1.2rem;
 }
 
-h3 {
-    color: #ff69b4;
-    margin-bottom: 15px;
+/* HEADER */
+
+header{
+    margin-top:2rem;
 }
 
-/* Lista */
-ul {
-    list-style: none;
-    padding: 0;
+header h1{
+    color:#ff69b4;
 }
 
-li {
-    background-color: #e6f0ff;
-    margin: 8px 0;
-    padding: 10px;
-    border-radius: 15px;
-    transition: 0.3s;
-    font-weight: 500;
+/* LINHA */
+
+hr{
+    width:60%;
+    margin:20px auto;
+    border:none;
+    height:3px;
+    background: linear-gradient(to right,#ffb6d9,#a6c8ff);
+    border-radius:10px;
 }
 
-li:hover {
-    background-color: #ffdaf0;
-    transform: scale(1.05);
-    cursor: pointer;
+/* TEXTO */
+
+#div1{
+    margin:2rem auto;
+    max-width:600px;
+    font-size:1.1rem;
+}
+
+/* CAIXA LISTA */
+
+#caixas{
+    display:flex;
+    justify-content:center;
+    margin:2rem;
+}
+
+.listas{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    width:350px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.1);
+}
+
+.listas h3{
+    color:#ff69b4;
+    margin-bottom:15px;
+}
+
+/* LISTA */
+
+ul{
+    list-style:none;
+}
+
+/* PAÍSES */
+
+ul li{
+    background:#e6f0ff;
+    margin:10px 0;
+    padding:12px;
+    border-radius:15px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+/* HOVER */
+
+ul li:hover{
+    background:#ffd6ef;
+    transform:scale(1.07);
+    cursor:pointer;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* FOOTER */
+
+footer{
+    margin-top:40px;
+    padding:15px;
+    font-size:14px;
+    color:#666;
 }
