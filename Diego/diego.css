@@ -1,73 +1,167 @@
 * {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-body {
-    background-color: #f0f0f0;
-    color: #333;
-    line-height: 1.6;
+    box-sizing: border-box;
+    font-family: 'Albert Sans', sans-serif;
+    color: white;
 }
 
 header {
-    background-color: #007BFF;
-    color: #fff;
-    padding: 20px 0;
+    background: url(assets/barcelona_city.png);
+    background-size: cover;
+    height: 700px;
+    width: 100%;
     text-align: center;
 }
 
-main {
-    margin-bottom: 70px;
+header h1 {
+    font-family: 'Amethysta', serif;
+    font-size: 150px;
+    padding-top: 200px;
+}
+
+h2, p {
+    font-family: 'Baskervville', serif;
+    font-style: italic;
+    color: black;
+}
+
+header p {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding-top: 20px;
 }
 
 #aluno {
-    background-color: #fff;
+    width: 100%;
+    background-color: rgb(129, 109, 109);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+
+#aluno h2 {
+    font-size: 40px;
     padding: 20px;
-    margin: 20px auto;
-    max-width: 600px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.div-aluno {
+    padding: 20px;
+    font-size: 25px;
+    background-color: rgb(226, 226, 226);
+    width: 40%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.div-aluno p,strong {
+    color: black;
+    padding: 10px;
 }
 
 #lugar {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 600px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    background-color: rgb(203, 198, 198);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
 }
+
+#lugar h2 {
+    font-size: 40px;
+    padding: 20px;
+    color: rgb(129, 109, 109);
+}
+
+.cls-lugares {
+    padding: 20px;
+    font-size: 18px;
+    background-color: rgb(226, 226, 226);
+    width: 45%;
+    height: 200px;
+    border-radius: 20px;
+}
+
 
 #curiosidades {
-    background-color: #fff;
+    width: 100%;
+    background-color: rgb(129, 109, 109);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+#curiosidades h2 {
+    font-size: 40px;
     padding: 20px;
-    margin: 20px auto;
-    max-width: 600px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
 }
 
-h2 {
-    color: #007BFF;
-    margin-bottom: 10px;
+#curiosidades li {
+    font-size: 18px;
+    padding: 10px;
+    font-style: italic;
+    font-family: 'Baskervville', serif;
 }
 
-ul {
-    list-style-type: disc;
-    padding-left: 20px;
+#imagens {
+    width: 100%;
+    height: 500px;
+    background-color: #7b1113;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
 }
 
-li {
-    margin-bottom: 10px;
+#imagens h2 {
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+}
+
+.imagens-container {
+    display: flex;
+    gap: 130px;
+    
+}
+
+.imagens-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.card-img p {
+    color: rgb(129, 109, 109);
+    font-size: 18px;
+}
+
+.card-img {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card-img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 
 footer {
-    background-color: #007BFF;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    background-color: rgb(203, 198, 198);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
